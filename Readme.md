@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Andrei Olzyatiev](https://up.htmlacademy.ru/htmlcss/30/user/1528169).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Пудников](https://htmlacademy.ru/profile/id71418).
 
 ---
 
