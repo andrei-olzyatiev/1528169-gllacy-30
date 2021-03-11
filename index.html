@@ -10,19 +10,43 @@
     <header>
       <nav>
         
-        <a>
+        <a href="index.html">
           <img src="" width="154" height="64" alt="Лого-ссылка на главную страницу">
         </a>
 
         <ul>
-          <li><a href="catalog.html">Каталог</a></li>
+          <li>
+            <a href="catalog.html">Каталог</a>
+            <ul>
+              <li><a href="blank.html">Новинки</a></li>
+              <li><a href="blank.html">Сливочное</a></li>
+              <li><a href="blank.html">Щербеты</a></li>
+              <li><a href="blank.html">Фруктовый лед</a></li>
+              <li><a href="blank.html">Мелорин</a></li>
+            </ul>
+          </li>
           <li><a href="blank.html">Доставка и оплата</a></li>
           <li><a href="blank.html">О компании</a></li>
         </ul>
 
         <ul>
-          <li><a href="blank.html">Поиск</a></li>
-          <li><a href="blank.html">Вход</a></li>
+          <li>
+            <a href="blank.html">Поиск</a>
+            <form action="https://echo.htmlacademy.ru/courses" method="get">
+              <input name="search" placeholder="Крем-брюле" type="search">
+              <button type="submit">Поиск</button>
+            </form>
+          </li>
+          <li>
+            <a href="blank.html">Вход</a>
+            <form action="https://echo.htmlacademy.ru/courses" method="post">
+              <input type="text" name="login" placeholder="email@example.com"><br><br>
+              <input type="password" name="password" placeholder="......"><br><br>
+              <input type="submit" value="Войти"><br>
+              <a href="blank.html">Забыли пароль?</a><br>
+              <a href="blank.html">Зарегистрироваться</a>
+            </form>
+          </li>
           <li><a href="blank.html">Корзина</a></li>
         </ul>
 
@@ -84,11 +108,12 @@
       <h1>Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h1>
 
       <section>
+        <h2>Наши преимущества</h2><!-- в будущем скрою-->
         <ul>
-          <li><img src="" alt="иконка мороженого">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
-          <li><img src="" alt="иконка коровы">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</li>
-          <li><img src="" alt="иконка листа">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
-          <li><img src="" alt="иконка термометра">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
+          <li><img src="" width="49" height="49" alt="иконка мороженого">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</li>
+          <li><img src="" width="49" height="49" alt="иконка коровы">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</li>
+          <li><img src="" width="49" height="49" alt="иконка листа">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</li>
+          <li><img src="" width="49" height="49" alt="иконка термометра">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</li>
         </ul>
       </section>
 
@@ -121,6 +146,13 @@
         <a href="tel:+8 812 450-25-25">+8 812 450-25-25</a> <br>
         (с 10 до 20 ежедневно) <br>
         <a href="blank.html">Форма обратной связи</a>
+        <form action="https://echo.htmlacademy.ru/courses" method="POST">
+          <p>Мы обязательно вам ответим!</p>
+          <input type="text" name="name" placeholder="Имя Фамилия"><br><br>
+          <input type="text" name="email" placeholder="email@example.com"><br><br>
+          <textarea name="comment" id="comment-field" rows="8" cols="45"></textarea><br><br>
+          <input type="submit" value="Отправить">
+        </form>
         </p>
       </section>
 
